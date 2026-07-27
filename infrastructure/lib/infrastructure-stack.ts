@@ -14,7 +14,7 @@ export class InfrastructureStack extends Stack {
     const { DEPLOY_ENVIRONMENT } = props;
     const infrastructureBuket = new Bucket(this, 
       `InfrastructureBucket-${DEPLOY_ENVIRONMENT}`, {
-      bucketName: `infrastructure-bucket-${DEPLOY_ENVIRONMENT}`,
+      bucketName: `cdk-ci-cd-pipeline-infrastructure-bucket-${DEPLOY_ENVIRONMENT}`,
       removalPolicy: RemovalPolicy.DESTROY,
       autoDeleteObjects: true,
     });
