@@ -106,7 +106,7 @@
     "@aws-cdk/custom-resources:logApiResponseDataPropertyTrueDefault": false,
     "@aws-cdk/customresources:installLatestAwsSdkDefault": false,
     "@aws-cdk/s3-notifications:addS3TrustKeyPolicyForSnsSubscriptions": true,
-    "infrastructureRepoName": "cdk-cd-cd-pipeline",
+    "infrastructureRepoName": "cdk-ci-cd-pipeline",
     "repositoryOwner": "eliudrojas",
     "dev" : {
       "envName": "dev",
